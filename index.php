@@ -52,11 +52,11 @@ echo "moyenne: ".$moyenne."<br>";
 
 if($moyenne >= 16){
    echo"Excellent"."<br>";
-} else if($moyenne >= 14){
+} elseif($moyenne >= 14){
    echo "Bien"."<br>";
 } if($moyenne >= 12){
    echo"Assez bien"."<br>";
-} else if($moyenne >= 10){
+} elseif($moyenne >= 10){
    echo"Passable"."<br>";
 }else{
     echo"Echec"."<br>";
